@@ -1,8 +1,10 @@
 import React from "react";
 import { Button, Image, Form, Card } from "react-bootstrap";
 import "./custom.css";
+import ReactDOM from "react-dom/client";
+import { Route, Routes } from "react-router-dom";
 
-function Login({ Login, error }) {
+function Login() {
   return (
     <>
       <Card className="background">
@@ -49,7 +51,7 @@ function Login({ Login, error }) {
               </Button>
               <div>
                 <p>
-                  Not a member?<a href="Signup"> Signup</a>
+                  Not a member?<a href="/signup"> Signup</a>
                 </p>
               </div>
             </Form>

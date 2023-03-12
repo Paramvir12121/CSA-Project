@@ -20,7 +20,7 @@ const Signup = () => {
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control type="email" placeholder="Enter Email" />
                 <Form.Text className="text-muted">
-                  We will never share your website with anyone.
+                  We will never share your email with anyone.
                 </Form.Text>
               </Form.Group>
 
@@ -44,7 +44,7 @@ const Signup = () => {
               </Button>
               <div>
                 {" "}
-                Already a member?<a href="Login"> Login</a>{" "}
+                Already a member?<a href="/"> Login</a>{" "}
               </div>
             </Form>
           </div>
