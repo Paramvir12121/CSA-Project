@@ -1,13 +1,14 @@
 //import "./App.css";
 import { Login, Signup, Navbar, Footer } from "./components";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Footer />
+      {/* <Navbar />
+      <Footer /> */}
       <Login />
-      <Signup />
+      {/* <Signup /> */}
     </div>
   );
 };
