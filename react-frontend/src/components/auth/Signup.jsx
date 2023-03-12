@@ -5,7 +5,7 @@ import "./custom.css";
 const Signup = () => {
   return (
     <>
-      <Card>
+      <Card className="background">
         <Card.Img
           className="masthead"
           src="https://wallpapers-hub.art/wallpaper-images/58332.jpg"
@@ -20,7 +20,7 @@ const Signup = () => {
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control type="email" placeholder="Enter Email" />
                 <Form.Text className="text-muted">
-                  We will never share your website with anyone
+                  We will never share your website with anyone.
                 </Form.Text>
               </Form.Group>
 
@@ -39,7 +39,7 @@ const Signup = () => {
                 </Form.Text> */}
               </Form.Group>
 
-              <Button variant="primary" type="submit">
+              <Button variant="primary" type="submit" value="LOGIN">
                 Signup
               </Button>
               <div>
